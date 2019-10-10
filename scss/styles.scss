@@ -6,28 +6,28 @@
 body, html{
 	display: block;
 	width: 100%;
-  height: 100%;
-  display: flex;
+    height: 100%;
+    display: flex;
 	align-items: center;
 }
 
 .pop{
-  margin: auto;
-  display: flex;
+    margin: auto;
+    display: flex;
 	justify-content: center;
 }
 
 .pop > *{
-  display: inline-block;
-  margin: .25em;
-  width: 5em;
-  height: 5em;
-  background: blue;
+    display: inline-block;
+    margin: .25em;
+    width: 5em;
+    height: 5em;
+    background: blue;
 }
 
 .pop > *:hover{
-  animation-name: popOut;
-  animation-duration: 1s;
+    animation-name: popOut;
+    animation-duration: 1s;
 }
 
 @keyframes popOut {
